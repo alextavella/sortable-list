@@ -1,0 +1,16 @@
+.sortable-list {
+  width: 100%;
+}
+
+.sortable-list-item {
+  background: #efefef;
+  border-left: 10px solid #ccc;
+  color: #111;
+  list-style: none;
+  padding: 20px;
+  width: 100%;
+}
+
+.sortable-list-item + .sortable-list-item {
+  margin-top: 10px;
+}
